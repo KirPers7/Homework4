@@ -21,7 +21,7 @@ public class Main {
 
         if (temperatureOutside < 5) {
             System.out.println("На улице " + temperatureOutside + " градусов, нужно надеть шапку");
-        } else if (temperatureOutside > 5) {
+        } else {
             System.out.println("На улице " + temperatureOutside + " градусов, можно идти без шапки");
         }
 
@@ -31,10 +31,13 @@ public class Main {
         System.out.println("Задача 3");
 
         short speedLimit = 60;
+        short realSpeed = 61;
 
-        if (speedLimit > 60) {
+        if (realSpeed > speedLimit) {
             System.out.println("Если скорость " + speedLimit + ", то придется заплатить штраф");
-        } else System.out.println("Если скорость " + speedLimit + ", то можно ездить спокойно");
+        } else {
+            System.out.println("Если скорость " + speedLimit + ", то можно ездить спокойно");
+        }
 
         System.out.println();
 
