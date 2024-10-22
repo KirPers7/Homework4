@@ -34,9 +34,9 @@ public class Main {
         short realSpeed = 61;
 
         if (realSpeed > speedLimit) {
-            System.out.println("Если скорость " + speedLimit + ", то придется заплатить штраф");
+            System.out.println("Если скорость " + realSpeed + ", то придется заплатить штраф");
         } else {
-            System.out.println("Если скорость " + speedLimit + ", то можно ездить спокойно");
+            System.out.println("Если скорость " + realSpeed + ", то можно ездить спокойно");
         }
 
         System.out.println();
